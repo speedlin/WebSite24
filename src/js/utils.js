@@ -30,3 +30,13 @@ function ma() {
     }
     return num;
 }
+function getStyle(ele, attr) {
+    var style;
+    if (window.getComputedStyle) {
+        // attr 是一个 字符串 对象[字符串]
+        style = window.getComputedStyle(ele)[attr];
+    } else {
+        style = ele.currentStyle[attr];
+    }
+    return style;
+}

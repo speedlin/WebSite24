@@ -49,7 +49,7 @@ function bindHtml(list) {
 
     list.forEach(item => {
         str += `
-            <li>
+            <li data-id="${ item.id}">
                 <div class="Goods-one"> 
                     <img src="${item.scr}" />
                     <p class="price">￥${item.price}</p>
@@ -115,3 +115,18 @@ cbtn.onclick = function(){
     $(this).parent().siblings().children().html('价格');
     pagi(oldlist);
 }
+$('.Goods-items').on('click','li',function(){
+    const id = $(this).data('id')
+    let data = {}
+
+    for(let i = 0;i<list.length;i++){
+        if(list[i].id == id){
+            data = list[i]
+            break
+        }
+    }
+    // console.log(data);
+    localStorage.setItem('goods_info',JSON.stringify(data))
+    window.location.href = '../pages/detail.html'
+    
+})

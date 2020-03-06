@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css" type="text/css">
-    <link rel="stylesheet" href="../lib/swiper/css/swiper.min.css" type="text/css">
-    <link rel="stylesheet" href="../css/index.css" type="text/css">
+    <link rel="stylesheet" href="../css/detail.css" type="text/css">
 </head>
-
 <body>
     <div class="cont-top">
         <div class="cont-top-center">
@@ -34,8 +31,8 @@
             <!--菜单部分-->
             <div id="navcon">
                 <ul>
-                    <li><a href="" class="active">首页</a></li>
-                    <li><a href="../pages/list.html">商品</a></li>
+                    <li><a href="../pages/index.html" >首页</a></li>
+                    <li><a href="../pages/list.html" class="active">商品</a></li>
                     <li><a href="#">生活用品</a></li>
                     <li><a href="#">手机数码</a></li>
                     <li><a href="#">关于我们</a></li>
@@ -50,83 +47,38 @@
             </div>
         </div>
     </nav>
-    <section class="banner">
-        <div class="swiper-container" style="height:100%">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../images/banner1.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../images/banner2.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="../images/banner3.jpg" alt=""></div>
-            </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-
-            <!-- 如果需要导航按钮 -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
+    <div class="path">
+        <div class="path-center">
+            <ol class="path-items">
+                <li><a href="./index.html">首页</a></li>
+                <span class="sep">></span>
+                <li><a href="./list.html">全部结果</a></li>
+                <span class="sep">></span>
+                <li><a href="#">商品详情</a></li>
+            </ol>
         </div>
-    </section>
-    <main>
-        <section class="section_outside s1">
-            <figure>
-                <figcaption>
-                    <img src="http://img11.360buyimg.com/aotucms/jfs/t1/48556/12/3911/6508/5d1b0c7cE51325ed1/45f0034bd87e9318.jpg" alt="">
-                </figcaption>
-                <article>
-                    <aside class="jdty">
-                        
-                    </aside>
-                    <ul>
-                        
-                    </ul>
-                </article>
-            </figure>
+    </div>
+    <main class="detail">
+        <!-- <section class="pic box">
+            <div class="imgbox">
+                <img src="https://img10.360buyimg.com/n7/jfs/t1/94748/14/9416/167008/5e0ed709Ea856d688/024a2e01b4879f4c.jpg" alt="">
+            </div>
+            <nav>
+                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/94748/14/9416/167008/5e0ed709Ea856d688/024a2e01b4879f4c.jpg" alt=""></li>
+                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/102004/19/9307/164575/5e0ed71eEd8dab496/dc921748c80d81de.jpg" alt=""></li>
+                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/98079/33/9394/104868/5e0ed6d8E680eecad/54178a4a06da0759.jpg" alt=""></li>
+                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/84728/5/9556/91449/5e0ed6d8E77b39825/541331f36bc72025.jpg" alt=""></li>
+                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/86237/32/9422/235918/5e0ed73bEfd241401/56cbb21ab33b280b.jpg" alt=""></li>
+            </nav>
         </section>
-        <section class="section_outside s2">
-            <figure>
-                <figcaption>
-                    <img src="//img20.360buyimg.com/aotucms/jfs/t1/45275/38/3974/7147/5d1b0c98E70dd95a9/4f4c7c321fa97f02.jpg" alt="">
-                </figcaption>
-                <article>
-                    <aside class="jdty">
-
-                    </aside>
-                    <ul>
-                        
-                    </ul>
-                </article>
-            </figure>
-        </section>
-        <section class="section_outside s3">
-            <figure>
-                <figcaption>
-                    <img src="//img30.360buyimg.com/aotucms/jfs/t1/74052/4/3422/4918/5d1b0caaEfbd3148b/a84794e4aeaff0d7.jpg" alt="">
-                </figcaption>
-                <article>
-                    <aside class="jdty">
-
-                    </aside>
-                    <ul>
-                        
-                    </ul>
-                </article>
-            </figure>
-        </section>
-        <section class="section_outside s4">
-            <figure>
-                <figcaption>
-                    <img src="//img10.360buyimg.com/aotucms/jfs/t1/59424/11/3482/6766/5d1b0cb7E4214574a/8997cdf929a27a2f.jpg" alt="">
-                </figcaption>
-                <article>
-                    <aside class="jdty">
-
-                    </aside>
-                    <ul>
-                        
-                    </ul>
-                </article>
-            </figure>
-        </section>
+        <section class="word">
+            <p class="title">丹麦进口曲奇 皇冠（Danisa）丹麦曲奇饼干礼盒装908g（新老包装随机发货）年货送礼零食礼包</p>
+            <p class="price"><span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>￥118.00</p>
+            <p class="weight"><span>重&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量</span>2.01kg</p>
+            <p class="shop"><span>商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;店</span>皇冠（danisa）京东自营旗舰店</p>
+            <p class="sell"><span>销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售</span>22万+</p>
+            <button class="add_cart">加入购物车</button>
+        </section> -->
     </main>
     <div class="footer">
         <div class="footerbox">
@@ -162,9 +114,7 @@
         </div>
     </div>
     <script src="../lib/jquery/dist/jquery.min.js"></script>
-    <script src="../lib/swiper/js/swiper.min.js"></script>
     <script src="../js/utils.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="../js/detail.js"></script>
 </body>
-
 </html>
