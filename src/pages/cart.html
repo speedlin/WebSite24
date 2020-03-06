@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css" type="text/css">
-    <link rel="stylesheet" href="../css/detail.css" type="text/css">
+    <link rel="stylesheet" href="../css/cart.css" type="text/css">
 </head>
 <body>
     <div class="cont-top">
@@ -15,7 +15,7 @@
                 <ul class="clear_fix">
                     <li><a href="./login.html" class="login">登录</a></li>
                     <li><a href="./register.html">免费注册</a></li>
-                    <li> <a href="./cart.html">购物车
+                    <li> <a href="#">购物车
                             <!-- <img src="../images/xiala.png"> -->
                         </a>
                         <!-- <div class="ShGoods">购物车为空</div> -->
@@ -55,30 +55,51 @@
                 <li><a href="./list.html">全部结果</a></li>
                 <span class="sep">></span>
                 <li><a href="#">商品详情</a></li>
+                <span class="sep">></span>
+                <li><a href="#">购物车</a></li>
             </ol>
         </div>
     </div>
-    <main class="detail">
-        <!-- <section class="pic box">
-            <div class="imgbox">
-                <img src="https://img10.360buyimg.com/n7/jfs/t1/94748/14/9416/167008/5e0ed709Ea856d688/024a2e01b4879f4c.jpg" alt="">
-            </div>
-            <nav>
-                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/94748/14/9416/167008/5e0ed709Ea856d688/024a2e01b4879f4c.jpg" alt=""></li>
-                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/102004/19/9307/164575/5e0ed71eEd8dab496/dc921748c80d81de.jpg" alt=""></li>
-                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/98079/33/9394/104868/5e0ed6d8E680eecad/54178a4a06da0759.jpg" alt=""></li>
-                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/84728/5/9556/91449/5e0ed6d8E77b39825/541331f36bc72025.jpg" alt=""></li>
-                <li><img src="https://img10.360buyimg.com/n5/jfs/t1/86237/32/9422/235918/5e0ed73bEfd241401/56cbb21ab33b280b.jpg" alt=""></li>
-            </nav>
-        </section>
-        <section class="word">
-            <p class="title">丹麦进口曲奇 皇冠（Danisa）丹麦曲奇饼干礼盒装908g（新老包装随机发货）年货送礼零食礼包</p>
-            <p class="price"><span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>￥118.00</p>
-            <p class="weight"><span>重&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量</span>2.01kg</p>
-            <p class="shop"><span>商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;店</span>皇冠（danisa）京东自营旗舰店</p>
-            <p class="sell"><span>销&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售</span>22万+</p>
-            <button class="add_cart">加入购物车</button>
-        </section> -->
+    <main>
+        <table class="shop">
+            <tbody class="shopS">
+                <tr class="nav">
+                    <th class="Son1">商品名称</th>
+                    <th class="Son2">数量</th>
+                    <th class="Son3">单价</th>
+                    <th class="Son4">总价</th>
+                    <th class="Son5">删除</th>
+                </tr>
+                <tr class="nullgoods">
+                    <td><span>购物车为空</span></td>
+                </tr>
+                <!-- <tr class="shopList">
+                    <td class="imgTd"><img class="shops" src="../images/vans.jpg" alt="" srcset=""></td>
+                    <td class="titleTd">
+                        <h6>Vans范斯 经典系列 Old Skool板鞋运动鞋 低帮经典款男女官方正品</h6>
+                        <span>ID:#2001</span>
+                        <span>Size:37</span>
+                    </td>
+                    <td class="Son2">
+                        <span class="reduce">-</span>
+                        <input type="text" value="1" class="count" style="border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;" disabled>
+                        <span class="add">+</span>
+                    </td>
+                    <td class="Son3">
+                        <del class="oriPrice">399.99 py6</del>
+                        <b class="nowPrice">299.98 py6</b>
+                    </td>
+                    <td class="Son4">
+                        <span class="priceAll">399.99 py6</span>
+                        <span class="saveAll">You save 100.01 py6</span>
+                    </td>
+                    <td class="Son5">
+                        <img class="del" src="../images/del.png" alt="">
+                    </td>
+                </tr> -->
+                
+            </tbody>
+        </table>
     </main>
     <div class="footer">
         <div class="footerbox">
@@ -114,7 +135,6 @@
         </div>
     </div>
     <script src="../lib/jquery/dist/jquery.min.js"></script>
-    <script src="../js/utils.js"></script>
-    <script src="../js/detail.js"></script>
+    <script src="../js/cart.js"></script>
 </body>
 </html>
