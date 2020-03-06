@@ -1,0 +1,84 @@
+// 版心为
+// width: 940px;
+// margin: 0 auto;
+body,html{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#32a1e8,white) no-repeat;
+}
+header{
+    height: 40px;
+    padding: 50px 20px 20px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    background: #fff;
+    .title{
+        text-align: center;
+        height: 80px;
+        line-height: 80px;
+        color: #32a1e8;
+        border-bottom: 1px solid #32a1e8;
+        font-size: 18px;
+    }
+    .form{
+        margin-top: 45px;
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        label{
+            width: 70px;
+            line-height: 45px;
+            color: #666;
+            text-align: right;
+            margin-right: 10px;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 20px;
+        
+        }
+        input{
+            width: 350px;
+            font-size: 12px;
+            color: #666;
+            height: 45px;
+            text-indent: 12px;
+            border: 1px solid #999;
+            box-sizing: border-box;
+            outline: none;
+        }
+        p{
+            position: relative;
+        }
+        a{
+            color: #32a1e8;
+            font-size: 12px;
+        }
+        span{
+            position: absolute;
+            left: 92px;
+            bottom: 0;
+            font-size: 12px;
+            color: red;
+            display: none;
+        }
+        #yzm{
+            width: 100px;
+            height: 45px;
+            line-height: 45px;
+            border: 0;
+            text-align: center;
+            color: white;
+            background: lightskyblue;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -1px;
+            cursor: pointer;
+            /* margin-top: 2px; */
+        }
+        #sub{
+            cursor: pointer;
+        }
+    }
+}

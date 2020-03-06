@@ -1,3 +1,11 @@
+var login = getCookie('login')
+if(login){
+    $('.login').html(login);
+    $('.login').attr('href','')
+}else{
+    $('.login').html('登录');
+    
+}
 getlist();
 var flag = 0;
 var list = [];
@@ -105,4 +113,5 @@ cbtn.onclick = function(){
     $(this).addClass('active').
     parent().siblings().children().removeClass('active');
     $(this).parent().siblings().children().html('价格');
+    pagi(oldlist);
 }

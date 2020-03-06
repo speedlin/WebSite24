@@ -1,3 +1,12 @@
+//用户
+var login = getCookie('login')
+if(login){
+    $('.login').html(login);
+    $('.login').attr('href','')
+}else{
+    $('.login').html('登录');
+    
+}
 // 轮播图设置
 var mySwiper = new Swiper('.swiper-container', {
     direction: 'horizontal', // 水平切换选项
