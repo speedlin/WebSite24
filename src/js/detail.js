@@ -8,6 +8,11 @@ if(login){
     
 }
 const goodsInfo = JSON.parse(localStorage.getItem('goods_info'))
+if(!goodsInfo){
+    alert('您查看的商品不存在')
+    window.location = '../pages/list.html'
+}
+
 
 let str = `
     <section class="pic box">
